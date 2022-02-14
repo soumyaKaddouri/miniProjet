@@ -53,7 +53,7 @@ a, button {
 @apply transition-all duration-300;
 }
 .container {
-@apply px-4;
+@apply px-2;
 }
 .row {
 @apply flex flex-wrap;

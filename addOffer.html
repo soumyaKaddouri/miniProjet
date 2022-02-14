@@ -52,11 +52,11 @@
               <div class="w-full">
                   <nav class="flex items-center justify-between pt-2 navbar navbar-expand-lg">
                       <a href="index.html" class="navbar-brand mr-5">
-                          <img src="assets/img/logo.png" alt="Logo" width="100px" height="100px"/>
+                          <img src="assets/img/logo.png" alt="Logo" width="100px" height="100px" />
                       </a>
 
                       <div class="flex justify-center flex-1 lg:mr-32">
-                          <div class="relative w-full max-w-xl mr-6 focus-within:text-green-700">
+                          <div class="relative w-full max-w-xl mr-6 focus-within:text-ensias-red">
                               <div class="absolute inset-y-0 flex items-center pl-2">
                                   <svg class="w-4 h-4" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20">
                                       <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path>
@@ -81,7 +81,7 @@
         <div class="row justify-center">
           <div class="w-fully lg:w-1/2">
             <div class="section_title text-center pb-6">
-              <h4 class="main_title">Offer Details</h4>
+              <h4 class="main_title">Add Offer</h4>
             </div>
             <!-- section title -->
           </div>
@@ -91,58 +91,49 @@
           <!-- ========== GRID START ============-->
           <div class="w-full sm:w-10/12 md:w-6/12 lg:w-12/12 h-12/12">
             <div class="grid_offer text-center mt-8 mx-3">
-              <h2 class="my-6 text-2xl font-semibold text-gray-700">
-                Platform Engineer
+              <h2 class="my-6 text-2xl font-semibold text-gray-700 text-left">
+                Forms
               </h2>
               <!-- General elements -->
               <div class="justify-left text-left">
-                <p class="pb-2 flex border-r-4 border-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  DISH - Denver, CO
-                </p>
-                <p class="pb-2 flex border-r-4 border-white">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-                  </svg>
-                  Full time job
-                </p>
-                <p>
-                  At DISH Wireless, we re imagine connectivity through new
-                  platforms, new business models and new ways of thinking.,<br />
+                <label class="block text-sm ">
+                  <span class="text-black">Offer name</span>
+                  <input class="block w-full mt-1 h-8 text-sm pl-2 focus:border-green-600 focus:border-2 border-2 border-gray-400 rounded-md form-input" placeholder="Offer name"/>
+                </label>
 
-                  Today, we are building America’s first cloud-native 5G network
-                  to transform the way we live, work and play with unlimited
-                  potential. Our teams operate at the intersection of wireless,
-                  data analytics, AI and the cloud to create something
-                  state-of-the-art, radically original, and truly unlike what
-                  anyone else can. <br />
+                <label class="block text-sm my-4">
+                  <span class="text-black">Owner name</span>
+                  <input class="block w-full mt-1 h-8 text-sm pl-2 focus:border-green-600  focus:border-2 border-2 border-gray-400 rounded-md form-input" placeholder="Owner name"/>
+                </label>
+                
+                <label class="block text-sm my-4">
+                  <span class="text-black">Owner phone number</span>
+                  <input class="block w-full mt-1 h-8 text-sm pl-2 focus:border-green-600  focus:border-2 border-2 border-gray-400 rounded-md form-input" type="tel" placeholder="Phone number"/>
+                </label>
 
-                  Navigating an ambiguous future, our mission is clear. We adapt
-                  to, and drive, change for all. <br />
-                  <strong>High Level Responsibilities :</strong><br />
-                  As a Jr. Platform Engineer, you will support in the capture,
-                  documentation and implementation of customer requirements. You
-                  will be in a role with partners and other stakeholders to:
-                  <br />
-                  Install, upgrade and configure applications and potentially
-                  other third-party software components required by these
-                  applications Implement customized workflows in our Mediation
-                  COTS (customer-off-the-shelf) application <br />
-                  Create, document and support execution of test plans and cases
-                  <br />
-                  Assist in the integration between the Revenue Management
-                  platforms and the network, BSS (Business Support Systems) and
-                  OSS (Operational Support Systems) for the complete life-cycle
-                  of charging, rating and billing <br />
-                  Be responsible for the technical deliverables assigned to you
-                  from estimating, designing, configuring and unit testing these
-                  and ensuring these are of a high standard of quality <br />
-                </p>
-                <a class="flex items-center justify-center p-4 mb-8 text-sm font-semibold text-white bg-green-700 rounded-lg shadow-md focus:outline-none mt-3" href="index.html" >
-                  <button type="submit">Back to home</button>
+                <label class="block text-sm my-4">
+                  <span class="text-black">Surface (m2)</span>
+                  <input class="block w-full mt-1 h-8 text-sm pl-2 focus:border-green-600  focus:border-2 border-2 border-gray-400 rounded-md form-input" type="number" min="0" placeholder="Ex: 1000 m2"/>
+                </label>
+
+                <label class="block text-sm my-4">
+                  <span class="text-black">Price/m2 (MAD)</span>
+                  <input class="block w-full mt-1 h-8 text-sm pl-2 focus:border-green-600  focus:border-2 border-2 border-gray-400 rounded-md form-input" type="number" min="0" placeholder="Ex: 10000"
+                  />
+                </label>
+
+                <label class="block text-sm my-4">
+                  <span class="text-black">Location</span>
+                  <input class="block w-full mt-1 h-8 text-sm pl-2 focus:border-green-600  focus:border-2 border-2 border-gray-400 rounded-md form-input" type = "text" placeholder="Country,City"/>
+                </label>
+
+                <label class="block mt-4 text-sm">
+                  <span class="text-gray-700">Description</span>
+                  <textarea class="block w-full mt-1 text-sm focus:border-green-600  focus:border-2 border-2 border-gray-400 rounded-md form-input p-2 h-260 pb-5" rows="3" placeholder="Enter the description of the offer" ></textarea>
+                </label>
+
+                <a class="flex items-center justify-center p-4 mb-8 text-sm font-semibold text-white bg-green-700 rounded-lg shadow-md focus:outline-none mt-3" href="index.html">
+                  <button type="submit">Submit</button>
                   <div class="flex items-center">
                     <span></span>
                   </div>
@@ -151,15 +142,21 @@
             </div>
           </div>
           <!-- ========== GRID END ============-->
+
+          
         </div>
       </div>
     </section>
     <!--====== FOOTER PART START ======-->
     <footer id="footer" class="footer_area bg-black relative z-10">
-      <div class="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
+      <div
+        class="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3"
+      >
         <img src="assets/img/footer-shape-left.png" alt="" />
       </div>
-      <div class="shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
+      <div
+        class="shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3"
+      >
         <img src="assets/img/footer-shape-right.png" alt="" />
       </div>
       <div class="container">
@@ -168,9 +165,9 @@
             <div class="w-full md:w-1/2 lg:w-5/12">
               <div class="footer_about mt-12 mx-3">
                 <div class="footer_logo">
-                  <a href="#">
-                    <img src="assets/img/footer_logo.png" alt="Logo"/>
-                  </a>
+                  <a href="#"
+                    ><img src="assets/img/footer_logo.png" alt="Logo"
+                  /></a>
                 </div>
                 <div class="footer_content mt-8">
                   <p class="text-white">
